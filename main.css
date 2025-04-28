@@ -1,0 +1,40 @@
+body{
+    background-color: lightcoral;
+    color:azure
+}
+
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#memeImage{
+    margin-right: 200px;
+    width: 450px;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 2px solid black;
+    text-align: left;
+    padding: 5px;
+}
+
+th{
+    background-color: darkred;
+}

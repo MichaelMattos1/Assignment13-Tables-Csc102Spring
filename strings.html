@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input Validation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="code.js"></script>
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2> <a href="index.html">Home</a>
+         <br>
+         <a href="boards.html">Boards</a> 
+         <br>
+         <a href="game.html">Game</a> 
+         <br>
+         <a href="strings.html">Input Validation</a> 
+        <br>
+        <a href="table.html">Programming Facts</a>  </h2>
+     </nav>
+</header>
+
+    <input type="text" id="firstName"><br>
+    <input type="text" id="lastName"><br>
+    <input type="submit" onclick="validateString()" id="submit" value="Enter Name"><br>
+
+
+    <br>
+    <br>
+    <h2 id="palinTitle">Palindrome Checker</h2>
+    <div id="palinBody"><br>
+        <div id="palinStatus">Palindrome Status</div>
+        <br>
+        <form id="palinSubmit" onsubmit="return false">
+            Enter possible palindrome: <input type="text" id="palinInput"><br>
+            <br>
+            <input type="submit" onclick="checkPalin();">
+        </form>
+    </div>
+
+<br>
+<br>
+<h2>Phone number validation</h2>
+<div id="phoneStatus">Phone Status</div>
+Country code<input type="text" id="countryNumber"><br>
+Area code<input type ="text" id="areaNumber"><br>
+Tele code<input type ="text" id="teleNumber"><br>
+Line code<input type="text" id="lineNumber"><br><br>
+<input type="submit" onclick="validatephoneNumber()"
+
+
+
+</body>
+
+</html>
